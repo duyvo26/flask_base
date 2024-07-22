@@ -8,6 +8,10 @@ load_dotenv()
 
 
 class Settings:
+    # FLASK SETTING
+    SITE_APP = os.environ["SITE_APP"]
+    DEBUG = True
+    
     # SETTING
     DIR_ROOT = os.path.dirname(os.path.abspath(".env"))
 
